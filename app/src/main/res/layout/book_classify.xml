@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.BookClassifyActivity">
+
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文学"
+        android:background="@color/colorAccent"
+        android:layout_x="-1dp"
+        android:layout_y="55dp" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="传记"
+        android:background="@color/colorAccent"
+        android:layout_x="-1dp"
+        android:layout_y="105dp" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小说"
+        android:background="?attr/colorAccent"
+        android:layout_x="-1dp"
+        android:layout_y="5dp" />
+
+
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="悬疑心理"
+        android:background="@color/colorAccent"
+        android:layout_x="-1dp"
+        android:layout_y="155dp" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="美食养生"
+        android:background="@color/colorAccent"
+        android:layout_x="-1dp"
+        android:layout_y="205dp" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="休闲娱乐"
+        android:background="@color/colorAccent"
+        android:layout_x="-1dp"
+        android:layout_y="255dp" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="143dp"
+        android:layout_height="108dp"
+        android:src="@drawable/t4"
+        android:layout_x="225dp"
+        android:layout_y="187dp" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="143dp"
+        android:layout_height="108dp"
+        android:src="@drawable/t5"
+        android:layout_x="85dp"
+        android:layout_y="333dp" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="143dp"
+        android:layout_height="108dp"
+        android:src="@drawable/t3"
+        android:layout_x="85dp"
+        android:layout_y="187dp" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="143dp"
+        android:layout_height="108dp"
+        android:src="@drawable/t6"
+        android:layout_x="225dp"
+        android:layout_y="333dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="小说"
+        android:textSize="20sp"
+        android:layout_x="130dp"
+        android:layout_y="159dp"
+        android:textColor="#151414"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="传记"
+        android:textSize="20sp"
+        android:layout_x="275dp"
+        android:layout_y="159dp"
+        android:textColor="#151414"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="文学"
+        android:textSize="20sp"
+        android:layout_x="130dp"
+        android:layout_y="298dp"
+        android:textColor="#151414"
+        />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="143dp"
+        android:layout_height="108dp"
+        android:src="@drawable/img_1"
+        android:layout_x="85dp"
+        android:layout_y="40dp" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="143dp"
+        android:layout_height="108dp"
+        android:src="@drawable/t2"
+        android:layout_x="225dp"
+        android:layout_y="40dp" />
+
+    <TextView
+        android:layout_width="113dp"
+        android:layout_height="64dp"
+        android:text="悬疑心理"
+        android:textSize="20sp"
+        android:layout_x="256dp"
+        android:layout_y="298dp"
+        android:textColor="#151414"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="美食养生"
+        android:textSize="20sp"
+        android:layout_x="125dp"
+        android:layout_y="460dp"
+        android:textColor="#151414"/>
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="休闲娱乐"
+        android:textSize="20sp"
+        android:layout_x="256dp"
+        android:layout_y="460dp"
+        android:textColor="#151414"/>
+    >
+
+
+
+</AbsoluteLayout>

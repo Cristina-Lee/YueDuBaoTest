@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blue">
+
+        <Button
+            android:id="@+id/btn_BacktoPersonalCenter"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="6dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_arrow_back_white_24dp" />
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/btn_BacktoPersonalCenter"
+            android:paddingLeft="10dp"
+            android:text="个人信息"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/item_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/title"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/user_image" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_image_mod"
+            android:text="编辑头像" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/child_layout_1"
+        android:id="@+id/item_2"
+        android:layout_below="@id/item_1">
+
+        <View style="@style/divider_style"/>
+
+        <TextView style="@style/textview_left"
+            android:id="@+id/user_name"
+            android:text="昵称"
+            android:textColor="@color/black" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_name_show"
+            android:text="yuedubao"
+            android:textColor="@color/grey" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/child_layout_1"
+        android:id="@+id/item_3"
+        android:layout_below="@id/item_2">
+
+        <View style="@style/divider_style"/>
+
+        <TextView style="@style/textview_left"
+            android:id="@+id/user_account"
+            android:text="账号"
+            android:textColor="@color/black" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_account_show"
+            android:text="yue12345" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/child_layout_1"
+        android:id="@+id/item_4"
+        android:layout_below="@id/item_3">
+
+        <View style="@style/divider_style"/>
+
+        <TextView style="@style/textview_left"
+            android:id="@+id/user_gender"
+            android:text="性别" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_gender_show"
+            android:text="女" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/child_layout_1"
+        android:id="@+id/item_5"
+        android:layout_below="@id/item_4">
+
+        <View style="@style/divider_style"/>
+
+        <TextView style="@style/textview_left"
+            android:id="@+id/user_birthday"
+            android:text="生日" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_birthday_show"
+            android:text="2019年1月6日" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/child_layout_1"
+        android:id="@+id/item_6"
+        android:layout_below="@id/item_5">
+
+        <View style="@style/divider_style"/>
+
+        <TextView style="@style/textview_left"
+            android:id="@+id/user_district"
+            android:text="地区" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_district_show"
+            android:text="武汉" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/child_layout_1"
+        android:id="@+id/item_7"
+        android:layout_below="@id/item_6">
+
+        <View style="@style/divider_style"/>
+
+        <TextView style="@style/textview_left"
+            android:id="@+id/user_signature"
+            android:text="个性签名" />
+
+        <TextView style="@style/textview_right"
+            android:id="@+id/user_signature_show"
+            android:text="热爱生活，热爱读书" />
+    </RelativeLayout>
+
+</RelativeLayout>

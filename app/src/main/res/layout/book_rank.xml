@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe4c4">
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="208dp"
+        android:layout_height="242dp"
+        android:src="@drawable/j2"
+        android:layout_x="193dp"
+        android:layout_y="304dp" />
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="208dp"
+        android:layout_height="242dp"
+        android:src="@drawable/j1"
+        android:layout_x="6dp"
+        android:layout_y="55dp" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="208dp"
+        android:layout_height="242dp"
+        android:src="@drawable/j3"
+        android:layout_x="193dp"
+        android:layout_y="55dp" />
+
+    <ImageView
+        android:id="@+id/image_4"
+        android:layout_width="208dp"
+        android:layout_height="242dp"
+        android:src="@drawable/j4"
+        android:layout_x="6dp"
+        android:layout_y="304dp" />
+
+    <TextView
+        android:id="@+id/lingkReg4"
+        android:clickable="true"
+        android:layout_width="121dp"
+        android:layout_height="100dp"
+        android:text="打赏榜"
+        android:textSize="35dp"
+        android:textColor="#f9f9f9"
+        android:layout_x="237dp"
+        android:layout_y="439dp" />
+
+    <TextView
+        android:id="@+id/linkReg3"
+        android:clickable="true"
+        android:layout_width="121dp"
+        android:layout_height="100dp"
+        android:text="飙升榜"
+        android:textSize="35dp"
+        android:textColor="#fcfaf9"
+        android:layout_x="237dp"
+        android:layout_y="206dp" />
+
+    <TextView
+        android:id="@+id/linkReg2"
+        android:clickable="true"
+        android:layout_width="121dp"
+        android:layout_height="100dp"
+        android:text="新书榜"
+        android:textSize="35dp"
+        android:textColor="#fcfbfb"
+        android:layout_x="64dp"
+        android:layout_y="206dp" />
+
+    <TextView
+        android:id="@+id/linkReg1"
+        android:clickable="true"
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:text="畅销榜"
+        android:textSize="35dp"
+        android:textColor="#f9f9f9"
+        android:layout_x="64dp"
+        android:layout_y="439dp" />
+
+
+</AbsoluteLayout>

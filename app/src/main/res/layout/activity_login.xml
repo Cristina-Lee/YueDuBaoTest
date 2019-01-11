@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/ic_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_login_BacktoRL"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@mipmap/ic_arrow_back_white_24dp"/>
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_login_BacktoRL"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="登 录"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_account"
+        android:layout_above="@id/view_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+        <ImageView
+            android:id="@+id/image_account"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@mipmap/ic_account_box_white" />
+
+        <EditText
+            android:id="@+id/input_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:hint=" 请输入账号"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/view_divide"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <LinearLayout
+        android:id="@+id/layout_password"
+        android:layout_below="@id/view_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+        <ImageView
+            android:id="@+id/image_password"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@mipmap/ic_lock_outline_white" />
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:hint=" 请输入密码"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@id/layout_password"
+        android:id="@+id/layout_tip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码？"
+            android:textSize="15sp"
+            android:textColor="@color/darkblue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="还没有账号？注册"
+            android:textSize="15sp"
+            android:textColor="@color/darkblue"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_tip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text="登 录"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+</RelativeLayout>

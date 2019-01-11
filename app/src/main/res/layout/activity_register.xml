@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/ic_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_register_BacktoRL"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        tools:layout_marginTop="6dp"
+        tools:layout_marginLeft="6dp"
+        android:background="@mipmap/ic_arrow_back_white_24dp"/>
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btn_register_BacktoRL"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="注 册"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_account"
+        android:layout_above="@+id/view_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+
+        <ImageView
+            android:id="@+id/image_account"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_account_box_white" />
+
+        <EditText
+            android:id="@+id/input_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/layout_account"
+            android:layout_weight="1"
+            android:hint=" 6~16位字母或数字组合作为账号"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <View
+        android:id="@+id/view_divide"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <LinearLayout
+        android:id="@+id/layout_password"
+        android:layout_below="@id/view_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+        <ImageView
+            android:id="@+id/image_password"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_lock_outline_white" />
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:hint=" 6~20位字母、数字、下划线为密码"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/view_divide_1"
+        android:layout_below="@id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <LinearLayout
+        android:id="@+id/layout_vertify"
+        android:layout_below="@id/view_divide_1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+        <ImageView
+            android:id="@+id/image_vertify"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_lock_outline_white" />
+
+        <EditText
+            android:id="@+id/input_vertify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint=" 再次输入密码验证"
+            android:textColor="@color/black" />
+    </LinearLayout>
+    <View
+        android:id="@+id/view_divide_2"
+        android:layout_below="@id/layout_vertify"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_divide_2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text="注 册"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+    <RelativeLayout
+        android:id="@+id/layout_verify_tip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp">
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户协议？"
+            android:textSize="15sp"
+            android:textColor="@color/darkblue"/>
+            -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="已有账号？返回登录"
+            android:textSize="15sp"
+            android:textColor="@color/darkblue"/>
+    </RelativeLayout>
+
+</RelativeLayout>

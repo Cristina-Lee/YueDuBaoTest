@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yueduabaotest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.PersonalInfoActivity" />
+        <activity android:name=".Activity.Register_LoginActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.PersonalCenterActivity" />
+        <activity android:name=".Activity.SetPasswordActivity" />
+        <activity android:name=".Activity.ResetPasswordActivity"></activity>
+
+        <activity android:name=".Activity.BookClassifyActivity"></activity>
+        <activity android:name=".Activity.BiographyActivity"></activity>
+        <activity android:name=".Activity.NovelActivity"></activity>
+        <activity android:name=".Activity.LiteratureActivity"></activity>
+        <activity android:name=".Activity.SuspenseActivity"></activity>
+        <activity android:name=".Activity.CateActivity"></activity>
+        <activity android:name=".Activity.RelaxationActivity"></activity>
+
+        <activity android:name=".Activity.BookRankActivity"></activity>
+        <activity android:name=".Activity.BestSellerActivity"></activity>
+        <activity android:name=".Activity.SoaringActivity"></activity>
+        <activity android:name=".Activity.NewbookActivity"></activity>
+        <activity android:name=".Activity.RewardActivity"></activity>
+
+    </application>
+
+</manifest>
